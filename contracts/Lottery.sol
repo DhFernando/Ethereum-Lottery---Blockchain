@@ -4,7 +4,7 @@ contract Lottery {
     address public manager;
     address[] public players;
 
-    constructor() public{
+    function Lottery() public{
         manager = msg.sender;
     }
     
